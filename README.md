@@ -1,6 +1,8 @@
 ### wso2apim
 
-Docker image to install and run WSO2 API Manager. 
+[![Follow me on Twitter][1.1]][1] [![Check out My GitHub Repos][6.1]][6]
+
+Docker image to install and run WSO2 API Manager.
 
 ### Tags
 
@@ -29,6 +31,11 @@ The dockerfile will:
 * To pull alpine-based image: `docker pull isim/wso2apim:alpine-java`
 * To run alpine-based image: `docker run --rm -h localhost --name your_container_name -p 9443:9443 isim/wso2apim:alpine-java`
 
-Follow me on [![alt text][1.1]][1]
+### License
+
+Refer to the [LICENSE](LICENSE) file. WSO2 license can be found [here](http://wso2.com/licenses).
+
 [1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
-[1]: http://www.twitter.com/IvanHCSIM
+[1]: https://twitter.com/IvanHCSim
+[6.1]: http://i.imgur.com/0o48UoR.pngi (github icon with padding)
+[6]: https://github.com/ihcsim
