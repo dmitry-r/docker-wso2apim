@@ -4,9 +4,9 @@
 FROM openjdk:8
 MAINTAINER Ivan Sim, ihcsim@gmail.com
 
-ENV VERSION 2.0.0
+ENV VERSION 2.1.0-RC2
 
-RUN wget -P /opt --user-agent="testuser" --referer="http://connect.wso2.com/wso2/getform/reg/new_product_download" http://product-dist.wso2.com/products/api-manager/${VERSION}/wso2am-${VERSION}.zip && \
+RUN wget -P /opt https://github.com/wso2/product-apim/releases/download/v2.1.0-rc2/wso2am-${VERSION}.zip && \
 apt-get update && \
     apt-get install -y zip && \
     apt-get clean && \
